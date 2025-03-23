@@ -50,4 +50,34 @@ Agar Windows bisa terhubung ke **L2TP/IPsec VPN Server**, ikuti langkah-langkah 
   5. Ubah valuenya menjadi **2**.  
   6. Restart komputer.  
 
-Setelah itu coba konek lagi. 🚀
+---
+
+## Konek via Smartphone Android:
+
+### **1. Buka Pengaturan VPN di Android**  
+1. **Buka Settings (Pengaturan)**.  
+2. Pilih **Network & Internet** → **VPN**.  
+   - Jika tidak ada menu ini, coba di **More connections** atau **Lanjutan**.  
+3. Klik **Add VPN** (`+` atau **Tambahkan VPN**).  
+
+---
+
+### **2. Tambahkan Konfigurasi VPN**  
+Pada form yang muncul, isi:  
+
+- **Name (Nama)**: `VPN L2TP` (bebas)  
+- **Type (Tipe)**: `L2TP/IPsec PSK`  
+- **Server Address (Alamat Server)**: `101.255.118.254`  
+- **L2TP Secret**: (kosongkan, tidak perlu diisi)  
+- **IPsec Pre-Shared Key**: `Rahasia`  
+- **Username**: `Android01`  
+- **Password**: `Android01`  
+
+---
+
+### **3. Simpan & Hubungkan**  
+1. Klik **Save (Simpan)**.  
+2. Pilih koneksi VPN yang baru dibuat → Klik **Connect (Hubungkan)**.  
+3. Jika berhasil, status akan berubah menjadi **Connected**. 🎉  
+
+---
